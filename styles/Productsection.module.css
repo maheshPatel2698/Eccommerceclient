@@ -1,0 +1,8 @@
+.product_section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+.btn {
+  margin-left: 50%;
+}

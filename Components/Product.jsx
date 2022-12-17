@@ -1,0 +1,33 @@
+import React from 'react'
+import styles from '../styles/Product.module.css'
+
+const Product = () => {
+    return (
+        <div className={styles.product_card}>
+            <div className={styles.product_image}>
+                <img loading='lazy' className={styles.image} src="data:image/jpeg;base64,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" />
+            </div>
+            <div className={styles.product_data}>
+                <span>
+                    <span>price</span>
+                    <span>133</span>
+                </span>
+                <span>
+                    <span>qty</span>
+                    <span>10</span>
+                </span>
+                <span>
+                    <span>size</span>
+                    <span>xl</span>
+                </span>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, ea.</span>
+            </div>
+            <div className={styles.btn_section}>
+                <button>Buy Now</button>
+                <button>Add To Cart</button>
+            </div>
+        </div>
+    )
+}
+
+export default Product
